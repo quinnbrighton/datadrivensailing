@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+torch
+requests
+beautifulsoup4
+lxml
+pytest
