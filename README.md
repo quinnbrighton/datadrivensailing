@@ -8,6 +8,15 @@ This repository is the public subset of the codebase: the rating trainer, the ou
 framework, the scraper, the page generators and the tests. The scraped data, the SQLite databases, credentials and the
 deploy scripts stay out of it, so the pipeline does not run end to end from a clean clone; the code is here to be read.
 
+## What it looks like
+
+| Venue difficulty: where fleets get mixed up | Every skipper on a team, over their careers |
+|---|---|
+| ![Venue difficulty map and ranking](docs/venue-difficulty.jpg) | ![Skipper ratings by date or by class year](docs/skipper-careers.jpg) |
+
+Left: venues colored by how much results get scrambled there (red) versus how orderly they stay (green), filterable by wind band. Right: a team's skippers, one line each across their careers, switchable between calendar time and class year.
+
+
 ## Results (held out)
 
 | Test | Site model | Static Plackett–Luce | Elo |
